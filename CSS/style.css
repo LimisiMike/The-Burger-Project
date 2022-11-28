@@ -222,6 +222,30 @@ h2{
  .intro1 {
     background-color: aliceblue;
 }
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #f6b400;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+}
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: silver;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+}
+.fa-arrow-right {
+    background: solid;
+    height: 25px;
+    width: 25px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+}
 
  .intro2 {
     background-color: #f6b400;
@@ -239,16 +263,19 @@ h2{
  }
 .doubles {
     position: relative;
+    align-items: center;
+    padding: 80px;
 }
 .front {
     position: absolute;
     right: 200px;
-    top: 80px;
+    top:160px;
 }
 .home1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 100px;
 
 }
  /* Customizing the last section */
@@ -256,14 +283,46 @@ h2{
     background-color: gainsboro;
 }
 .logo1 {
-    float: left;
-    margin: 30px;
- }
- .sitemaps {
-    margin: 40px;
-    padding: 20px;
- }
- .button1 {/*to style the order button*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+ .class-m{
+    color: black;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40px;
+    text-align: left;
+}
+.class-n{
+    color: orange;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+}
+ .sitemap {
+        height: 50px;
+        font-size: 20px;
+        font-weight: normal;
+        font-family: Georgia;
+    }
+.sitemap ul{
+        padding: 0px;
+        margin: 0;
+        text-align: center;
+    }
+.sitemap li {
+    display: block;
+    padding: 4px; 
+}
+#sitemap a{
+    text-decoration: none;
+    color: black;
+    padding: 35px;
+}
+
+.button1 {/*to style the order button*/
     background-color: orange;
     border: none;
     padding: 15px 32px;
@@ -271,3 +330,96 @@ h2{
     display: inline-block;
     cursor: pointer;
  }
+ 
+ * {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid white;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: orange;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*To style the very last item*/
+.last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+}
+  .fa {
+    padding: 2px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: black;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: black;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: black;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: black;
+    color: white;
+  }
+  
+
+  
+
+
+  
+
+ 
+  
+  
